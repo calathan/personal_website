@@ -2,7 +2,7 @@
 <html>
     <head>
     <title>Izzy's Website - Home</title>
-    <link rel="stylesheet" type="text/css" href=".resources//style.css" />
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='style.css') }}"/>
     <meta name="description" content="Izzy's Website">
     <meta name="keywords" content="html tutorial template">
 </head>
@@ -10,13 +10,14 @@
 
 
 <body>
-    <div class-"nav_bar">
-        <ul>
+    <div class="nav_bar">
+        <ul class="nav_bar">
+            <li><a href="/">Home</a></li>
             <li><a href="/about">About Me</a></li>
             <li><a href="/links">Useful Resources</a></li>
         </ul>
-        
     </div>
+    
     
     <div class="main_content">
         <h1>This is just a test header</h1>
