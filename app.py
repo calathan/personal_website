@@ -12,6 +12,10 @@ def hello_world():
 def about_me():
     return  render_template("about_me.html")
     
+@app.route("/links")
+def about_me():
+    return  render_template("links.html")
+    
     
 def todays_date():
     today = date.today()
